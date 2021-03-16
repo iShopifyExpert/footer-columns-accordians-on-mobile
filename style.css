@@ -1,0 +1,24 @@
+@media (max-width: 980px) {
+  .footer--blocks>:not(:last-child) {
+    padding-bottom: 0 !important;
+    border-bottom: 1px solid #fff;
+  }
+  .footer--block--body {
+    padding-bottom: 30px;
+  }
+  span.ftoggle {
+    background-size: cover;
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin: 2px 0 0 30px;
+    cursor: pointer;
+  }
+  span.ftoggle.plus {
+    background-image: url(//cdn.shopify.com/s/files/1/0048/1057/1889/t/28/assets/plus-thin.png?v=9968839567546611917);
+  }
+  span.ftoggle.minus {
+    background-image: url(//cdn.shopify.com/s/files/1/0048/1057/1889/t/28/assets/minus-thin.png?v=582863029030682309);
+  }
+}
