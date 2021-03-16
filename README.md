@@ -1,0 +1,1 @@
+# footer-columns-accordians-on-mobile
