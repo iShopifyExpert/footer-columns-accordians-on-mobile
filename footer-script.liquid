@@ -1,0 +1,13 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+  var check  = function() { return $(window).width() <=980 }
+  if (check()) { $('.footer--block--body').hide(); } else { $('.footer--block--body').show(); }
+  $('.ftoggle').click(function() {
+    if (check()) {
+      $(this).toggleClass(function(){
+        return $(this).is('.plus, .minus') ? 'plus minus' : 'plus';
+      });
+      $(this).parent().next('.footer--block--body').slideToggle();
+    }
+  });
+</script>
